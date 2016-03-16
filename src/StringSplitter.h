@@ -1,8 +1,8 @@
 /*
-	StringSplitter Class Header File
-	Project: SplitString
-	Author:  Matthew Boyette
-	Date:    2/27/2016
+    StringSplitter Class Header File
+    Project: SplitString
+    Author:  Matthew Boyette
+    Date:    2/27/2016
 */
 
 #pragma once
@@ -15,16 +15,16 @@ using namespace std;
 
 class StringSplitter
 {
-	public:
+    public:
 
-		static const vector<string> splitString(const string &s, char delim, bool ignoreEmptyStrings = true);
+        static const vector<string> splitString(const string &s, char delim, bool ignoreEmptyStrings = true);
 
-	protected:
+    protected:
 
-		// ...
+        // ...
 
-	private:
+    private:
 
-		// ...
+        // ...
 
 };
